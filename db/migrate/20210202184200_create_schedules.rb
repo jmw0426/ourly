@@ -1,4 +1,4 @@
-class CreateSchedules < ActiveRecord::Migration[6.0]
+class CreateSchedules < ActiveRecord::Migration[5.0]
   def change
     create_table :schedules do |t|
       t.string :month
