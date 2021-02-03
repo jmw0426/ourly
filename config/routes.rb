@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get '/' => 'sessions#index'
-  get '/login' => 'session#new'
-  post '/login' => 'session#create'
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
   get '/signup' => 'users#new'
   resources :events
   resources :schedules
